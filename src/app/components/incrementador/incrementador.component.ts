@@ -1,11 +1,12 @@
-import { Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-progress',
-  templateUrl: './progress.component.html',
-  styleUrls:['./progress.component.css']
+  selector: 'app-incrementador',
+  templateUrl: './incrementador.component.html',
+  styles: [
+  ]
 })
-export class ProgressComponent  {
+export class IncrementadorComponent  {
 
   progreso: number = 40;
 
@@ -28,5 +29,6 @@ export class ProgressComponent  {
 
 
   }
+
 
 }
