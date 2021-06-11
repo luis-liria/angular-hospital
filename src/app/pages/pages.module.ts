@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 
 
 
+
 @NgModule({
   declarations: [
     DashboardComponent,
@@ -26,6 +27,7 @@ import { RouterModule } from '@angular/router';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    
 
   ],
   imports: [
@@ -34,7 +36,9 @@ import { RouterModule } from '@angular/router';
     AppRoutingModule,
     FormsModule,
     RouterModule,
-    ComponentsModule
+    ComponentsModule,
+   
+   
 
   ]
 })
